@@ -1,7 +1,3 @@
-import pytest
-from NetworkParser import NetworkParser
-
-
 def test_name_definition(sample_network_parser) -> bool:
     assert len(sample_network_parser.network_name) > 0
 
