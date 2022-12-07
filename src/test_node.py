@@ -9,12 +9,12 @@ def node_samples():
     name = "station01"
     id_lines = [1, 2]
     lon, lat = [13.2, 10.1]
-    node_1 = Node(id_node, name, id_lines, lon, lat)
+    node_1 = Node(id_node, name, id_lines, [lon, lat])
     id_node = 2
     name = "station02"
     id_lines = [1]
     lon, lat = [13.2, 10.0]
-    node_2 = Node(id_node, name, id_lines, lon, lat)
+    node_2 = Node(id_node, name, id_lines, [lon, lat])
     return (node_1, node_2)
 
 
