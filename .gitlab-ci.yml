@@ -1,33 +1,31 @@
 test-pylint:
-        stage: test
-        image: python:3.10
-        script:
-                - pip install -r requirements.txt
-                - cd src && pylint *.py
-        coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
+  stage: test
+  image: python:3.10
+  script:
+    - pip install -r requirements.txt
+    - cd src && pylint *.py --fail-under=9
 
 test-python3.9:
-        stage: test
-        image: python:3.9
-        script:
-                - pip install -r requirements.txt
-                - cd src && pytest --cov=. --cov-fail-under=90 *.py
-        coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
+  stage: test
+  image: python:3.9
+  script:
+    - pip install -r requirements.txt
+    - cd src && pytest --cov=. --cov-fail-under=90 *.py
+  coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
 
 test-python3.10:
-        stage: test
-        image: python:3.10
-        script:
-                - pip install -r requirements.txt
-                - cd src && pytest --cov=. --cov-fail-under=90 *.py
-        coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
+  stage: test
+  image: python:3.10
+  script:
+    - pip install -r requirements.txt
+    - cd src && pytest --cov=. --cov-fail-under=90 *.py
+  coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
 
 test-python3.11:
-        stage: test
-        image: python:3.11
-        allow_failure: true
-        script:
-                - pip install -r requirements.txt
-                - cd src && pytest --cov=. *.py
-        coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
-
+  stage: test
+  image: python:3.11
+  allow_failure: true
+  script:
+    - pip install -r requirements.txt
+    - cd src && pytest --cov=. *.py
+  coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)/'
