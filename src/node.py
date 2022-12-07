@@ -3,10 +3,10 @@ class NeighborError(Exception):
 
 
 class Node:
-    def __init__(self, id, name, lignes, lon, lat, neighbors=[]):
+    def __init__(self, id, name, id_lines, lon, lat, neighbors=[]):
         self.id = id
         self.name = name
-        self.lignes = lignes
+        self.id_lines = id_lines
         self.lon = lon
         self.lat = lat
         self.neighbors = neighbors
@@ -15,8 +15,8 @@ class Node:
         if node in self.neighbors:
             raise NeighborError("Node already in neighbors")
         else:
-            if not set(self.lignes).intersection(node.lignes):
-                raise NeighborError("No common ligne")
+            if not set(self.id_lines).intersection(node.id_lines):
+                raise NeighborError("No common line")
             else:
                 self.neighbors.append(node)
                 node.neighbors.append(self)
