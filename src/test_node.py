@@ -60,3 +60,10 @@ def test_invalid_neighbors(node_samples):
         node_1.add_neighbor(node_2)
     with pytest.raises(NeighborError):
         node_2.add_neighbor(node_1)
+
+def test_get_closest_neighbor(node_samples):
+    node_1, node_2 = node_samples
+    node_3 = Node(3, "station03", [1], [0, 0])
+    node_2.add_neighbor(node_1)
+    node_2.add_neighbor(node_3)
+    assert node_1.get_closest_neighbor() == node_2

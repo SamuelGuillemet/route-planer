@@ -45,3 +45,10 @@ class Node:
         lat_self = self.lat*math.pi/180
         lon_self = self.lon*math.pi/180
         return math.acos(math.sin(lat_self) * math.sin(lat_node) + math.cos(lat_self) * math.cos(lat_node) * math.cos(lon_self - lon_node)) * 6378137
+
+    def get_closest_neighbor(self):
+        closest_neighbor = {'node':None, 'weight':None}
+        for node in self.neighbors:
+            if closest_neighbor['weight'] is None or node['weight'] < closest_neighbor['weight']:
+                closest_neighbor = node
+        return closest_neighbor['node']
