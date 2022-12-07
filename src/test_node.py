@@ -8,12 +8,12 @@ def node_samples():
     id_node = 1
     name = "station01"
     id_lines = [1, 2]
-    lon, lat = [13.2, 10.1]
+    lat, lon = [48.861675, 2.346786]
     node_1 = Node(id_node, name, id_lines, [lon, lat])
     id_node = 2
     name = "station02"
     id_lines = [1]
-    lon, lat = [13.2, 10.0]
+    lat, lon = [48.854921, 2.347367]
     node_2 = Node(id_node, name, id_lines, [lon, lat])
     return (node_1, node_2)
 
@@ -23,20 +23,21 @@ def test_nodes(node_samples):
     assert node_1.id == 1
     assert node_1.name == "station01"
     assert node_1.id_lines == [1, 2]
-    assert node_1.lon == 13.2
-    assert node_1.lat == 10.1
+    assert node_1.lat == 48.861675
+    assert node_1.lon == 2.346786
     node_2 = node_samples[1]
     assert node_2.id == 2
     assert node_2.name == "station02"
     assert node_2.id_lines == [1]
-    assert node_2.lon == 13.2
-    assert node_2.lat == 10.0
+    assert node_2.lat == 48.854921
+    assert node_2.lon == 2.347367
 
 
 def test_neighbors(node_samples):
     node_1, node_2 = node_samples
     # test Add
     node_1.add_neighbor(node_2)
+    assert node_1.neighbors[0]['weight'] == round(node_1.get_distance(node_2), 2)
     assert node_2 in node_1.get_neighbors_list()
     assert node_1 in node_2.get_neighbors_list()
     with pytest.raises(NeighborError):
