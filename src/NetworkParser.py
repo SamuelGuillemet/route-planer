@@ -6,16 +6,16 @@ class NetworkParser:
     def __init__(self, network_name: str, lines_path: str, stops_path: str):
         self.network_name = network_name
 
-        with open(lines_path, "rb", encoding="utf-8") as lines:
-            self._lines = json.parse(lines.read)
+        with open(lines_path, "r", encoding="utf-8") as lines:
+            self._lines = json.load(lines)
 
-        with open(stops_path, "rb", encoding="utf-8") as stops:
-            self._stops = json.parse(stops.read)
+        with open(stops_path, "r", encoding="utf-8") as stops:
+            self._stops = json.load(stops)
 
-    def get_lines():
+    def get_lines(self):
         return self._lines
 
-    def get_stops():
+    def get_stops(self):
         return self._stops
 
     def __str__(self) -> str:
