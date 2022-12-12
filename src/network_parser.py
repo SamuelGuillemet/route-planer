@@ -10,7 +10,10 @@ class NetworkParser:
             self._lines = json.load(lines)
 
         with open(stops_path, "r", encoding="utf-8") as stops:
-            self._stops = json.load(stops)
+            stops = json.load(stops)
+            for i, stop in enumerate(stops):
+                stops[i]["id"] = i
+            self._stops = stops
 
     def get_lines(self):
         return self._lines
