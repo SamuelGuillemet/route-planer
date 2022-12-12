@@ -38,13 +38,14 @@ class Node:
         for node_element in node.neighbors:
             if node_element['node'] == self:
                 node.neighbors.remove(node_element)
-    
+
     def get_distance(self, node):
         lat_node = node.lat*math.pi/180
         lon_node = node.lon*math.pi/180
         lat_self = self.lat*math.pi/180
         lon_self = self.lon*math.pi/180
-        return math.acos(math.sin(lat_self) * math.sin(lat_node) + math.cos(lat_self) * math.cos(lat_node) * math.cos(lon_self - lon_node)) * 6378137
+        return math.acos(math.sin(lat_self) * math.sin(lat_node)
+        + math.cos(lat_self) * math.cos(lat_node) * math.cos(lon_self - lon_node)) * 6378137
 
     def get_closest_neighbor(self):
         closest_neighbor = {'node':None, 'weight':None}
