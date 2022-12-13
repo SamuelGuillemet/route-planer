@@ -1340,7 +1340,7 @@
     "description": "Saint-Denis (9 rue, 114 boulevard de Sébastopol) - 75102",
     "latitude": 48.869632,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 23 },
       { "line": "ligne-4", "position": 9 },
       { "line": "ligne-9", "position": 24 }
     ],
@@ -1604,7 +1604,7 @@
     "description": "Voltaire (1 boulevard, en face) - 75111",
     "latitude": 48.867258,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 22 },
       { "line": "ligne-11", "position": 5 },
       { "line": "ligne-5", "position": 13 },
       { "line": "ligne-3", "position": 19 },
@@ -1746,7 +1746,7 @@
     "description": "Scribe (6 rue, angle avec le 2 rue Auber) - 75109",
     "latitude": 48.870721,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 27 },
       { "line": "ligne-3", "position": 12 },
       { "line": "ligne-7", "position": 16 }
     ],
@@ -1808,7 +1808,7 @@
     "description": "Tuileries (jardin des, le long du jardin et face È la place Concorde) PARIS-08 - 75108",
     "latitude": 48.865678,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 29 },
       { "line": "ligne-12", "position": 14 },
       { "line": "ligne-1", "position": 15 }
     ],
@@ -1819,7 +1819,7 @@
     "description": "Roquette (rue de la) PARIS-11 - 75104",
     "latitude": 48.852976,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 18 },
       { "line": "ligne-1", "position": 8 },
       { "line": "ligne-5", "position": 17 }
     ],
@@ -1854,7 +1854,7 @@
     "description": "Diderot (73 boulevard) - 75112",
     "latitude": 48.847353,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 15 },
       { "line": "ligne-1", "position": 6 }
     ],
     "longitude": 2.385843,
@@ -2182,7 +2182,7 @@
     "description": "Pondichéry (25 rue de) - 75115",
     "latitude": 48.849019,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 33 },
       { "line": "ligne-6", "position": 8 },
       { "line": "ligne-10", "position": 9 }
     ],
@@ -2248,7 +2248,7 @@
     "description": "Reuilly (118 rue de) - 75112",
     "latitude": 48.839376,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 13 },
       { "line": "ligne-6", "position": 25 }
     ],
     "longitude": 2.395788,
@@ -2564,21 +2564,21 @@
   {
     "description": "Félix Faure (place) - 75115",
     "latitude": 48.842825,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 35 }],
     "longitude": 2.292225,
     "name": "Félix Faure"
   },
   {
     "description": "Montreuil (205 rue de) - 75111",
     "latitude": 48.850068,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 16 }],
     "longitude": 2.384429,
     "name": "Faidherbe-Chaligny"
   },
   {
     "description": "Reuilly (68 rue de, rue Montgallet) - 75112",
     "latitude": 48.844143,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 14 }],
     "longitude": 2.389625,
     "name": "Montgallet"
   },
@@ -2586,7 +2586,7 @@
     "description": "Poniatowsky (95 boulevard) - 75112",
     "latitude": 48.835497,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 11 },
       { "line": "tramway-3a", "position": 22 }
     ],
     "longitude": 2.406185,
@@ -2595,63 +2595,63 @@
   {
     "description": "Daumesnil (253 avenue, 122 rue de Picpus) - 75112",
     "latitude": 48.836991,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 12 }],
     "longitude": 2.40292,
     "name": "Michel Bizot"
   },
   {
     "description": "Commerce (21 place du) - 75115",
     "latitude": 48.844614,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 34 }],
     "longitude": 2.293803,
     "name": "Commerce"
   },
   {
     "description": "La Tour Maubourg (boulevard de, côté impair et face au 60) - 75107",
     "latitude": 48.857228,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 31 }],
     "longitude": 2.309796,
     "name": "La Tour-Maubourg"
   },
   {
     "description": "Motte Picquet (44 avenue de la) - 75107",
     "latitude": 48.854261,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 32 }],
     "longitude": 2.30544,
     "name": "Ecole Militaire"
   },
   {
     "description": "Route de Pompadour - 94028",
     "latitude": 48.768111,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 1 }],
     "longitude": 2.46565,
     "name": "Pointe du Lac"
   },
   {
     "description": "Filles du Calvaire (6 boulevard des) - 75103",
     "latitude": 48.860975,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 20 }],
     "longitude": 2.367262,
     "name": "Saint-Sébastien-Froissart"
   },
   {
     "description": "Temple (2 boulevard du) - 75103",
     "latitude": 48.863078,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 21 }],
     "longitude": 2.366746,
     "name": "Filles du Calvaire"
   },
   {
     "description": "Beaumarchais (61 boulevard) - 75103",
     "latitude": 48.857587,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 19 }],
     "longitude": 2.368037,
     "name": "Chemin Vert"
   },
   {
     "description": "Ledru Rollin (87 rue) - 75112",
     "latitude": 48.851194,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 17 }],
     "longitude": 2.375932,
     "name": "Ledru-Rollin"
   },
@@ -2659,7 +2659,7 @@
     "description": "Poissonnière (8 boulevard) - 75109",
     "latitude": 48.870577,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 24 },
       { "line": "ligne-9", "position": 23 }
     ],
     "longitude": 2.348494,
@@ -2669,7 +2669,7 @@
     "description": "Poissonnière (32 boulevard) - 75109",
     "latitude": 48.871575,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 25 },
       { "line": "ligne-9", "position": 22 }
     ],
     "longitude": 2.342895,
@@ -2679,7 +2679,7 @@
     "description": "Italiens (3 boulevard des) - 75109",
     "latitude": 48.872006,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 26 },
       { "line": "ligne-9", "position": 21 }
     ],
     "longitude": 2.339911,
@@ -2689,7 +2689,7 @@
     "description": "Poniatowsky (68 boulevard, angle avec la rue Ferdinand-de-Béhagle) - 75112",
     "latitude": 48.83266,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 10 },
       { "line": "tramway-3a", "position": 21 }
     ],
     "longitude": 2.400464,
@@ -2698,28 +2698,28 @@
   {
     "description": "Paris (150 rue de) - 94018",
     "latitude": 48.825637,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 9 }],
     "longitude": 2.407411,
     "name": "Liberté"
   },
   {
     "description": "Général Leclerc (26/28 avenue du) - 94046",
     "latitude": 48.808225,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 6 }],
     "longitude": 2.436276,
     "name": "Maisons-Alfort-Stade"
   },
   {
     "description": "Paris (91 rue de) - 94018",
     "latitude": 48.82149,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 8 }],
     "longitude": 2.413857,
     "name": "Charenton-Ecoles"
   },
   {
     "description": "General Leclerc (avenue du, cote pair) - 94046",
     "latitude": 48.815076,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 7 }],
     "longitude": 2.421632,
     "name": "Ecole Vétérinaire de Maisons-Alfort"
   },
@@ -2727,7 +2727,7 @@
     "description": "Université (rue de l') - 75107",
     "latitude": 48.861093,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 30 },
       { "line": "ligne-13", "position": 12 }
     ],
     "longitude": 2.314643,
@@ -2737,7 +2737,7 @@
     "description": "Victor (8 boulevard, angle avec l'avenue de la Porte de Sèvres côté pair) - 75115",
     "latitude": 48.836815,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 38 },
       { "line": "tramway-3a", "position": 2 }
     ],
     "longitude": 2.278683,
@@ -2746,35 +2746,35 @@
   {
     "description": "Eiffel (13 rue) - 94028",
     "latitude": 48.796601,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 4 }],
     "longitude": 2.449532,
     "name": "Créteil-L'Echat (Hôpital Henri Mondor)"
   },
   {
     "description": "Ferdinand de Lesseps (rue, université et mail des Mêches) - 94028",
     "latitude": 48.789724,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 3 }],
     "longitude": 2.450836,
     "name": "Créteil-Université"
   },
   {
     "description": "Louis Pergaud (2 rue) - 94046",
     "latitude": 48.8025,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 5 }],
     "longitude": 2.446184,
     "name": "Maisons-Alfort-Les Juilliottes"
   },
   {
     "description": "Félix Faure (41 avenue) - 75115",
     "latitude": 48.841025,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 36 }],
     "longitude": 2.287924,
     "name": "Boucicaut"
   },
   {
     "description": "Félix Faure (100 avenue, 161 rue de Lourmel) - 75115",
     "latitude": 48.838668,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 37 }],
     "longitude": 2.282248,
     "name": "Lourmel"
   },
@@ -2782,7 +2782,7 @@
     "description": "Tronchet (2 rue, 3 rue Tronchet) - 75108",
     "latitude": 48.869507,
     "lines": [
-      { "line": "ligne-8", "position": 0 },
+      { "line": "ligne-8", "position": 28 },
       { "line": "ligne-14", "position": 2 },
       { "line": "ligne-12", "position": 13 }
     ],
@@ -2792,7 +2792,7 @@
   {
     "description": "Mont Mesly - 94028",
     "latitude": 48.779757,
-    "lines": [{ "line": "ligne-8", "position": 0 }],
+    "lines": [{ "line": "ligne-8", "position": 2 }],
     "longitude": 2.459314,
     "name": "Créteil-Préfecture (Hôtel de Ville)"
   },
