@@ -860,13 +860,6 @@
     "name": "Montempoivre"
   },
   {
-    "description": "117 bd brune - 75114",
-    "latitude": 48.823518,
-    "lines": [{ "line": "tramway-3a", "position": null }],
-    "longitude": 2.324773,
-    "name": "Porte d'orleans"
-  },
-  {
     "description": "Face 15 bis bd jourdan - 75114",
     "latitude": 48.820625,
     "lines": [

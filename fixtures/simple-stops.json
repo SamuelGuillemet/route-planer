@@ -1,0 +1,688 @@
+[
+  {
+    "description": "Victor Hugo (4 place, angle avec l'avenue Raymond Poincarré) - 75116",
+    "latitude": 48.869865,
+    "lines": [{ "line": "ligne-2", "position": 2 }],
+    "longitude": 2.285226,
+    "name": "Victor Hugo"
+  },
+  {
+    "description": "Clichy (26 boulevard de) - 75118",
+    "latitude": 48.882423,
+    "lines": [{ "line": "ligne-2", "position": 11 }],
+    "longitude": 2.337255,
+    "name": "Pigalle"
+  },
+  {
+    "description": "Chapelle (entrée sous viaduc face au 35 boulevard de la) - 75110",
+    "latitude": 48.884389,
+    "lines": [{ "line": "ligne-2", "position": 14 }],
+    "longitude": 2.359277,
+    "name": "La Chapelle"
+  },
+  {
+    "description": "Mont-Louis (19 rue de, 131 avenue Philippe Auguste) - 75111",
+    "latitude": 48.858379,
+    "lines": [{ "line": "ligne-2", "position": 22 }],
+    "longitude": 2.389735,
+    "name": "Philippe Auguste"
+  },
+  {
+    "description": "Clichy (terre-plein face au 7 place de) - 75109",
+    "latitude": 48.883456,
+    "lines": [{ "line": "ligne-2", "position": 9 }],
+    "longitude": 2.327375,
+    "name": "Place de Clichy"
+  },
+  {
+    "description": "République (avenue de la) - 75111",
+    "latitude": 48.863161,
+    "lines": [
+      { "line": "ligne-2", "position": 21 },
+      { "line": "ligne-3", "position": 22 }
+    ],
+    "longitude": 2.38726,
+    "name": "Père-Lachaise"
+  },
+  {
+    "description": "Foch (avenue, côté impair) - 75116",
+    "latitude": 48.871792,
+    "lines": [{ "line": "ligne-2", "position": 1 }],
+    "longitude": 2.27487,
+    "name": "Porte Dauphine (Maréchal de Lattre de Tassigny)"
+  },
+  {
+    "description": "Rochechouart (2 boulevard de, vers le boulevard Barbès) - 75109",
+    "latitude": 48.88368,
+    "lines": [
+      { "line": "ligne-4", "position": 5 },
+      { "line": "ligne-2", "position": 13 }
+    ],
+    "longitude": 2.349533,
+    "name": "Barbès-Rochechouart"
+  },
+  {
+    "description": "Villette (terre-plein face au 1 boulevard de la) - 75119",
+    "latitude": 48.872287,
+    "lines": [{ "line": "ligne-2", "position": 18 }],
+    "longitude": 2.376738,
+    "name": "Belleville"
+  },
+  {
+    "description": "Villette (terre-plein face au 83 boulevard de la) - 75110",
+    "latitude": 48.878185,
+    "lines": [{ "line": "ligne-2", "position": 17 }],
+    "longitude": 2.370175,
+    "name": "Colonel Fabien"
+  },
+  {
+    "description": "Courcelles (27 boulevard de) - 75117",
+    "latitude": 48.881324,
+    "lines": [
+      { "line": "ligne-2", "position": 7 },
+      { "line": "ligne-3", "position": 8 }
+    ],
+    "longitude": 2.316597,
+    "name": "Villiers"
+  },
+  {
+    "description": "Clichy (terre-plein face au 59 boulevard de) - 75118",
+    "latitude": 48.883771,
+    "lines": [{ "line": "ligne-2", "position": 10 }],
+    "longitude": 2.332485,
+    "name": "Blanche"
+  },
+  {
+    "description": "Villette (244/171 boulevard de la) - 75119",
+    "latitude": 48.884189,
+    "lines": [{ "line": "ligne-2", "position": 15 }],
+    "longitude": 2.36703,
+    "name": "Stalingrad"
+  },
+  {
+    "description": "Rochechouart (68 boulevard) - 75118",
+    "latitude": 48.882872,
+    "lines": [{ "line": "ligne-2", "position": 12 }],
+    "longitude": 2.344164,
+    "name": "Anvers"
+  },
+  {
+    "description": "République Dominicaine (1 place de la) - 75108",
+    "latitude": 48.880577,
+    "lines": [{ "line": "ligne-2", "position": 6 }],
+    "longitude": 2.309416,
+    "name": "Monceau"
+  },
+  {
+    "description": "Charonne (111 boulevard de, 180 rue de Charonne et 1 rue de Bagnolet) - 75111",
+    "latitude": 48.856426,
+    "lines": [{ "line": "ligne-2", "position": 23 }],
+    "longitude": 2.394554,
+    "name": "Alexandre-Dumas"
+  },
+  {
+    "description": "Charonne (terre-plein face au 35 boulevard de) - 75111",
+    "latitude": 48.851194,
+    "lines": [{ "line": "ligne-2", "position": 24 }],
+    "longitude": 2.398239,
+    "name": "Avron"
+  },
+  {
+    "description": "Villette (entrée sous viaduc face au 196 boulevard de la) - 75119",
+    "latitude": 48.882769,
+    "lines": [{ "line": "ligne-2", "position": 16 }],
+    "longitude": 2.369946,
+    "name": "Jaurès"
+  },
+  {
+    "description": "Ménilmontant (139/148 boulevard de) - 75111",
+    "latitude": 48.865706,
+    "lines": [{ "line": "ligne-2", "position": 20 }],
+    "longitude": 2.384429,
+    "name": "Ménilmontant"
+  },
+  {
+    "description": "Ternes (place des) - 75117",
+    "latitude": 48.878228,
+    "lines": [{ "line": "ligne-2", "position": 4 }],
+    "longitude": 2.298121,
+    "name": "Ternes"
+  },
+  {
+    "description": "Courcelles (53 boulevard de) - 75108",
+    "latitude": 48.879272,
+    "lines": [{ "line": "ligne-2", "position": 5 }],
+    "longitude": 2.303299,
+    "name": "Courcelles"
+  },
+  {
+    "description": "Belleville (37 boulevard de) - 75111",
+    "latitude": 48.869329,
+    "lines": [{ "line": "ligne-2", "position": 19 }],
+    "longitude": 2.380536,
+    "name": "Couronnes"
+  },
+  {
+    "description": "Batignolles (60 boulevard des) - 75117",
+    "latitude": 48.882071,
+    "lines": [{ "line": "ligne-2", "position": 8 }],
+    "longitude": 2.320398,
+    "name": "Rome"
+  },
+  {
+    "description": "Rennes (127 rue de, angle avec le 81 rue Notre-Dame des Champs) - 75106",
+    "latitude": 48.847012,
+    "lines": [{ "line": "ligne-4", "position": 19 }],
+    "longitude": 2.327055,
+    "name": "Saint-Placide"
+  },
+  {
+    "description": "Saint-Denis (9 rue, 114 boulevard de Sébastopol) - 75102",
+    "latitude": 48.869632,
+    "lines": [{ "line": "ligne-4", "position": 9 }],
+    "longitude": 2.354502,
+    "name": "Strasbourg-Saint-Denis"
+  },
+  {
+    "description": "Raoul Dautry (place, SNCF Montparnasse) - 75114",
+    "latitude": 48.84419,
+    "lines": [{ "line": "ligne-4", "position": 20 }],
+    "longitude": 2.324441,
+    "name": "Montparnasse-Bienvenue"
+  },
+  {
+    "description": "Saint-Germain (168 bis boulevard) - 75106",
+    "latitude": 48.853447,
+    "lines": [{ "line": "ligne-4", "position": 17 }],
+    "longitude": 2.333046,
+    "name": "Saint-Germain des Prés"
+  },
+  {
+    "description": "Strasbourg (terre plein face au 93 boulevard de) - 75110",
+    "latitude": 48.876696,
+    "lines": [{ "line": "ligne-4", "position": 7 }],
+    "longitude": 2.357993,
+    "name": "Gare de l'Est (Verdun)"
+  },
+  {
+    "description": "Poissonniers (69 rue des) - 75118",
+    "latitude": 48.891544,
+    "lines": [{ "line": "ligne-4", "position": 3 }],
+    "longitude": 2.349371,
+    "name": "Marcadet-Poissonniers"
+  },
+  {
+    "description": "Turbigo (14 rue) - 75101",
+    "latitude": 48.86371,
+    "lines": [{ "line": "ligne-4", "position": 11 }],
+    "longitude": 2.348983,
+    "name": "Etienne Marcel"
+  },
+  {
+    "description": "Château Rouge (48 place du) - 75118",
+    "latitude": 48.887086,
+    "lines": [{ "line": "ligne-4", "position": 4 }],
+    "longitude": 2.34937,
+    "name": "Château Rouge"
+  },
+  {
+    "description": "Saint-Michel (place, vers le 5 boulevard Saint-Michel) - 75105",
+    "latitude": 48.8536,
+    "lines": [{ "line": "ligne-4", "position": 15 }],
+    "longitude": 2.343996,
+    "name": "Saint-Michel"
+  },
+  {
+    "description": "Strasbourg (51/53 boulevard de) - 75110",
+    "latitude": 48.872454,
+    "lines": [{ "line": "ligne-4", "position": 8 }],
+    "longitude": 2.356056,
+    "name": "Château d'Eau"
+  },
+  {
+    "description": "Général Leclerc (42 avenue du) - 75114",
+    "latitude": 48.832192,
+    "lines": [{ "line": "ligne-4", "position": 24 }],
+    "longitude": 2.330407,
+    "name": "Mouton-Duvernet"
+  },
+  {
+    "description": "Maine (230 avenue du) - 75114",
+    "latitude": 48.828066,
+    "lines": [{ "line": "ligne-4", "position": 25 }],
+    "longitude": 2.326827,
+    "name": "Alésia"
+  },
+  {
+    "description": "Dunkerque (18 rue de, rue du Faubourg Saint-Denis) - 75110",
+    "latitude": 48.879743,
+    "lines": [{ "line": "ligne-4", "position": 6 }],
+    "longitude": 2.354601,
+    "name": "Gare du Nord"
+  },
+  {
+    "description": "Verrières (place des, Forum des Halles) - 75101",
+    "latitude": 48.862012,
+    "lines": [{ "line": "ligne-4", "position": 12 }],
+    "longitude": 2.346476,
+    "name": "Les Halles"
+  },
+  {
+    "description": "Saint-Germain (93 boulevard, rue de l'Ecole de Médecine) - 75106",
+    "latitude": 48.852198,
+    "lines": [{ "line": "ligne-4", "position": 16 }],
+    "longitude": 2.33878,
+    "name": "Odéon"
+  },
+  {
+    "description": "Général Leclerc (4 avenue du, 2 rue Daguerre) - 75114",
+    "latitude": 48.834277,
+    "lines": [{ "line": "ligne-4", "position": 23 }],
+    "longitude": 2.332204,
+    "name": "Denfert-Rochereau"
+  },
+  {
+    "description": "Ornano (82 boulevard) - 75118",
+    "latitude": 48.89797,
+    "lines": [{ "line": "ligne-4", "position": 1 }],
+    "longitude": 2.343988,
+    "name": "Porte de Clignancourt"
+  },
+  {
+    "description": "Raspail (234 boulevard, 1 boulevard Edgar Quinet) - 75114",
+    "latitude": 48.839157,
+    "lines": [{ "line": "ligne-4", "position": 22 }],
+    "longitude": 2.330474,
+    "name": "Raspail"
+  },
+  {
+    "description": "Rue Louis Rolland - 92049",
+    "latitude": 48.818466,
+    "lines": [{ "line": "ligne-4", "position": 27 }],
+    "longitude": 2.319643,
+    "name": "Mairie de Montrouge"
+  },
+  {
+    "description": "Courcelles (184 rue de, angle avec le105 avenue de Villiers) - 75117",
+    "latitude": 48.885031,
+    "lines": [{ "line": "ligne-3", "position": 5 }],
+    "longitude": 2.297135,
+    "name": "Péreire"
+  },
+  {
+    "description": "Réaumur (97 rue) - 75102",
+    "latitude": 48.86735,
+    "lines": [{ "line": "ligne-3", "position": 15 }],
+    "longitude": 2.347567,
+    "name": "Sentier"
+  },
+  {
+    "description": "Voltaire (1 boulevard, en face) - 75111",
+    "latitude": 48.867258,
+    "lines": [{ "line": "ligne-3", "position": 19 }],
+    "longitude": 2.364037,
+    "name": "République"
+  },
+  {
+    "description": "Saint-Denis (182 rue) - 75102",
+    "latitude": 48.86628,
+    "lines": [
+      { "line": "ligne-4", "position": 10 },
+      { "line": "ligne-3", "position": 16 }
+    ],
+    "longitude": 2.352485,
+    "name": "Réaumur-Sébastopol"
+  },
+  {
+    "description": "Général Leclerc (place, côté pair et rue Anatole France et rue Voltaire) - 92044",
+    "latitude": 48.892019,
+    "lines": [{ "line": "ligne-3", "position": 2 }],
+    "longitude": 2.285517,
+    "name": "Anatole-France"
+  },
+  {
+    "description": "Py (rue de la) - 75120",
+    "latitude": 48.864337,
+    "lines": [{ "line": "ligne-3", "position": 24 }],
+    "longitude": 2.408825,
+    "name": "Porte de Bagnolet"
+  },
+  {
+    "description": "Villiers (143 rue de) - 75117",
+    "latitude": 48.885739,
+    "lines": [{ "line": "ligne-3", "position": 4 }],
+    "longitude": 2.291861,
+    "name": "Porte de Champerret"
+  },
+  {
+    "description": "Quatre Septembre (20 rue du) - 75102",
+    "latitude": 48.869661,
+    "lines": [{ "line": "ligne-3", "position": 13 }],
+    "longitude": 2.336328,
+    "name": "Quatre Septembre"
+  },
+  {
+    "description": "Louise Michel (30 rue) - 92044",
+    "latitude": 48.88927,
+    "lines": [{ "line": "ligne-3", "position": 3 }],
+    "longitude": 2.288055,
+    "name": "Louise Michel"
+  },
+  {
+    "description": "Vertus (rue des) - 75103",
+    "latitude": 48.865552,
+    "lines": [{ "line": "ligne-3", "position": 17 }],
+    "longitude": 2.356108,
+    "name": "Arts-et-Métiers"
+  },
+  {
+    "description": "Villiers (74 avenue de) - 75117",
+    "latitude": 48.883712,
+    "lines": [{ "line": "ligne-3", "position": 6 }],
+    "longitude": 2.305558,
+    "name": "Wagram"
+  },
+  {
+    "description": "Baudin (rue, angle avec la rue Anatole France) - 92044",
+    "latitude": 48.89731,
+    "lines": [{ "line": "ligne-3", "position": 1 }],
+    "longitude": 2.280769,
+    "name": "Pont de Levallois-Bécon"
+  },
+  {
+    "description": "Saint-Lazare (97 rue) - 75108",
+    "latitude": 48.875682,
+    "lines": [{ "line": "ligne-3", "position": 10 }],
+    "longitude": 2.325592,
+    "name": "Saint-Lazare"
+  },
+  {
+    "description": "Gare routière - 93006",
+    "latitude": 48.863263,
+    "lines": [{ "line": "ligne-3", "position": 25 }],
+    "longitude": 2.415975,
+    "name": "Gallieni (Parc de Bagnolet)"
+  },
+  {
+    "description": "Père-Lachaise (avenue du, rue des Pyrénées) - 75120",
+    "latitude": 48.864783,
+    "lines": [{ "line": "ligne-3", "position": 23 }],
+    "longitude": 2.398446,
+    "name": "Gambetta"
+  },
+  {
+    "description": "République (48 avenue de la, 87 avenue Parmentier) - 75111",
+    "latitude": 48.86526,
+    "lines": [{ "line": "ligne-3", "position": 20 }],
+    "longitude": 2.374757,
+    "name": "Parmentier"
+  },
+  {
+    "description": "Madrid (1 rue de) - 75108",
+    "latitude": 48.87906,
+    "lines": [{ "line": "ligne-3", "position": 9 }],
+    "longitude": 2.322975,
+    "name": "Europe"
+  },
+  {
+    "description": "Notre-Dame des Victoires (rue) - 75102",
+    "latitude": 48.868762,
+    "lines": [{ "line": "ligne-3", "position": 14 }],
+    "longitude": 2.340674,
+    "name": "Bourse"
+  },
+  {
+    "description": "Servan (71 rue, rue Guillaume Bertrand) - 75111",
+    "latitude": 48.864089,
+    "lines": [{ "line": "ligne-3", "position": 21 }],
+    "longitude": 2.3809,
+    "name": "Rue Saint-Maur"
+  },
+  {
+    "description": "Scribe (6 rue, angle avec le 2 rue Auber) - 75109",
+    "latitude": 48.870721,
+    "lines": [{ "line": "ligne-3", "position": 12 }],
+    "longitude": 2.332255,
+    "name": "Opéra"
+  },
+  {
+    "description": "Temple (rue du, angle avec la rue Turbigo) - 75103",
+    "latitude": 48.866764,
+    "lines": [{ "line": "ligne-3", "position": 18 }],
+    "longitude": 2.361571,
+    "name": "Temple"
+  },
+  {
+    "description": "Villiers (48 avenue de, Musée Henner) - 75117",
+    "latitude": 48.882536,
+    "lines": [{ "line": "ligne-3", "position": 7 }],
+    "longitude": 2.311009,
+    "name": "Malesherbes"
+  },
+  {
+    "description": "Haussmann (boulevard, côté pair et vers la rue Caumartin) - 75109",
+    "latitude": 48.873462,
+    "lines": [{ "line": "ligne-3", "position": 11 }],
+    "longitude": 2.32848,
+    "name": "Havre-Caumartin"
+  },
+  {
+    "description": "Nation (terre-plein face au 3 place de la) - 75112",
+    "latitude": 48.848111,
+    "lines": [
+      { "line": "ligne-1", "position": 5 },
+      { "line": "ligne-2", "position": 25 }
+    ],
+    "longitude": 2.398004,
+    "name": "Nation"
+  },
+  {
+    "description": "Tuileries (jardin des, le long du jardin et face È la place Concorde) PARIS-08 - 75108",
+    "latitude": 48.865678,
+    "lines": [{ "line": "ligne-1", "position": 15 }],
+    "longitude": 2.321194,
+    "name": "Concorde"
+  },
+  {
+    "description": "Roquette (rue de la) PARIS-11 - 75104",
+    "latitude": 48.852976,
+    "lines": [{ "line": "ligne-1", "position": 8 }],
+    "longitude": 2.369219,
+    "name": "Bastille"
+  },
+  {
+    "description": "Amiral de Coligny (8 rue de l') - 75101",
+    "latitude": 48.86088,
+    "lines": [{ "line": "ligne-1", "position": 12 }],
+    "longitude": 2.340973,
+    "name": "Louvre-Rivoli"
+  },
+  {
+    "description": "Paris (98 avenue de) - 94080",
+    "latitude": 48.845369,
+    "lines": [{ "line": "ligne-1", "position": 2 }],
+    "longitude": 2.428245,
+    "name": "Bérault"
+  },
+  {
+    "description": "Clémenceau (place) - 75108",
+    "latitude": 48.867744,
+    "lines": [{ "line": "ligne-1", "position": 16 }],
+    "longitude": 2.314123,
+    "name": "Champs-Elysées-Clémenceau"
+  },
+  {
+    "description": "Diderot (73 boulevard) - 75112",
+    "latitude": 48.847353,
+    "lines": [{ "line": "ligne-1", "position": 6 }],
+    "longitude": 2.385843,
+    "name": "Reuilly-Diderot"
+  },
+  {
+    "description": "Champs-Elysées (118 avenue des) - 75108",
+    "latitude": 48.872046,
+    "lines": [{ "line": "ligne-1", "position": 18 }],
+    "longitude": 2.300769,
+    "name": "George V"
+  },
+  {
+    "description": "Grande Armée (36 avenue de la) - 75117",
+    "latitude": 48.875672,
+    "lines": [{ "line": "ligne-1", "position": 20 }],
+    "longitude": 2.289444,
+    "name": "Argentine"
+  },
+  {
+    "description": "Montaigne (60 avenue) - 75108",
+    "latitude": 48.86901,
+    "lines": [{ "line": "ligne-1", "position": 17 }],
+    "longitude": 2.310253,
+    "name": "Franklin-Roosevelt"
+  },
+  {
+    "description": "Rivoli (terre-plein face au 93 rue de) - 75101",
+    "latitude": 48.862372,
+    "lines": [{ "line": "ligne-1", "position": 13 }],
+    "longitude": 2.336574,
+    "name": "Palais-Royal (Musée du Louvre)"
+  },
+  {
+    "description": "Charles de Gaulle (209 avenue) - 92051",
+    "latitude": 48.885506,
+    "lines": [{ "line": "ligne-1", "position": 23 }],
+    "longitude": 2.258527,
+    "name": "Pont de Neuilly"
+  },
+  {
+    "description": "Paris (168 bis avenue de) - 94067",
+    "latitude": 48.846238,
+    "lines": [{ "line": "ligne-1", "position": 3 }],
+    "longitude": 2.419,
+    "name": "Saint-Mandé"
+  },
+  {
+    "description": "Paris (14 avenue de) - 94080",
+    "latitude": 48.844325,
+    "lines": [{ "line": "ligne-1", "position": 1 }],
+    "longitude": 2.440552,
+    "name": "Château de Vincennes"
+  },
+  {
+    "description": "Sculpteurs (voie des) - 92062",
+    "latitude": 48.888358,
+    "lines": [{ "line": "ligne-1", "position": 24 }],
+    "longitude": 2.249937,
+    "name": "Esplanade de la Défense"
+  },
+  {
+    "description": "Victoria (7 avenue, 4 rue Saint-Martin) - 75101",
+    "latitude": 48.85857,
+    "lines": [
+      { "line": "ligne-1", "position": 11 },
+      { "line": "ligne-4", "position": 13 }
+    ],
+    "longitude": 2.347933,
+    "name": "Châtelet"
+  },
+  {
+    "description": "Verdun (16 place de) - 75117",
+    "latitude": 48.878006,
+    "lines": [{ "line": "ligne-1", "position": 21 }],
+    "longitude": 2.282466,
+    "name": "Porte Maillot"
+  },
+  {
+    "description": "Charles de Gaulle (place, avenue Hoche) - 75108",
+    "latitude": 48.873931,
+    "lines": [
+      { "line": "ligne-2", "position": 3 },
+      { "line": "ligne-1", "position": 19 }
+    ],
+    "longitude": 2.295127,
+    "name": "Charles de Gaulle-Etoile"
+  },
+  {
+    "description": "Rivoli (210 rue de) - 75101",
+    "latitude": 48.86478,
+    "lines": [{ "line": "ligne-1", "position": 14 }],
+    "longitude": 2.329095,
+    "name": "Tuileries"
+  },
+  {
+    "description": "Charles de Gaulle (85 avenue) - 92051",
+    "latitude": 48.881299,
+    "lines": [{ "line": "ligne-1", "position": 22 }],
+    "longitude": 2.271915,
+    "name": "Les Sablons (Jardin d'acclimatation)"
+  },
+  {
+    "description": "Cours de Vincennes (99) - 75120",
+    "latitude": 48.847017,
+    "lines": [{ "line": "ligne-1", "position": 4 }],
+    "longitude": 2.410817,
+    "name": "Porte de Vincennes"
+  },
+  {
+    "description": "Gare SNCF - 75112",
+    "latitude": 48.84556,
+    "lines": [{ "line": "ligne-1", "position": 7 }],
+    "longitude": 2.373449,
+    "name": "Gare de Lyon"
+  },
+  {
+    "description": "Rivoli (terre plein face au 10 rue de) - 75104",
+    "latitude": 48.855135,
+    "lines": [{ "line": "ligne-1", "position": 9 }],
+    "longitude": 2.361334,
+    "name": "Saint-Paul (Le Marais)"
+  },
+  {
+    "description": "Rivoli (70 rue de) - 75104",
+    "latitude": 48.857356,
+    "lines": [{ "line": "ligne-1", "position": 10 }],
+    "longitude": 2.352074,
+    "name": "Hôtel de Ville"
+  },
+  {
+    "description": "Carpeaux (rue, gare du RER La Défense) - 92062",
+    "latitude": 48.891827,
+    "lines": [{ "line": "ligne-1", "position": 25 }],
+    "longitude": 2.237992,
+    "name": "La Défense (Grande Arche)"
+  },
+  {
+    "description": "Ornano (38 boulevard) - 75118",
+    "latitude": 48.894123,
+    "lines": [{ "line": "ligne-4", "position": 2 }],
+    "longitude": 2.347245,
+    "name": "Simplon"
+  },
+  {
+    "description": "Montparnasse (108 boulevard du) - 75106",
+    "latitude": 48.84206,
+    "lines": [{ "line": "ligne-4", "position": 21 }],
+    "longitude": 2.328867,
+    "name": "Vavin"
+  },
+  {
+    "description": "Louis Lepine (2 place) - 75104",
+    "latitude": 48.855685,
+    "lines": [{ "line": "ligne-4", "position": 14 }],
+    "longitude": 2.346203,
+    "name": "Cité"
+  },
+  {
+    "description": "Légion Etrangère (rue de la) - 75114",
+    "latitude": 48.822817,
+    "lines": [{ "line": "ligne-4", "position": 26 }],
+    "longitude": 2.325073,
+    "name": "Porte d'Orléans (Général Leclerc)"
+  },
+  {
+    "description": "Rennes (69 rue de) - 75106",
+    "latitude": 48.851146,
+    "lines": [{ "line": "ligne-4", "position": 18 }],
+    "longitude": 2.330963,
+    "name": "Saint-Sulpice"
+  }
+]
