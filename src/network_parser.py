@@ -1,5 +1,5 @@
 import json
-from node import Node, NeighborError
+from node import Node
 
 
 class NetworkParser:

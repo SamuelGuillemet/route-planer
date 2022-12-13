@@ -1,4 +1,4 @@
-from node import Node, NeighborError
+from node import Node
 
 
 def test_name_definition(sample_network_parser) -> bool:
