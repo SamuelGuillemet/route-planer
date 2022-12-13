@@ -1,3 +1,6 @@
+from node import Node, NeighborError
+
+
 def test_name_definition(sample_network_parser) -> bool:
     assert len(sample_network_parser.network_name) > 0
 
@@ -10,9 +13,9 @@ def test_stops_loading(sample_network_parser) -> bool:
     assert len(sample_network_parser.get_stops()) > 0
 
 
-def test_stops_id(sample_network_parser) -> bool:
+def test_stop_node_initializing(sample_network_parser) -> bool:
     for stop in sample_network_parser.get_stops():
-        if stop["id"] == None:
+        if not (isinstance(stop, Node)):
             assert False
     assert True
 
