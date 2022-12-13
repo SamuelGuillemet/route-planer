@@ -16,8 +16,7 @@ def test_dijkstra_algorithm_directly_connected_nodes():
     # from node1 to node2
     path = graph.dijkstra_algorithm(node1, node2)
     assert path == [node1, node2]
-    
-    
+
 def test_dijkstra_algorithm_indirectly_connected_nodes():
     # Create a graph with three nodes that are indirectly connected
     graph = Graph()
@@ -34,7 +33,6 @@ def test_dijkstra_algorithm_indirectly_connected_nodes():
     # from node1 to node3
     path = graph.dijkstra_algorithm(node1, node3)
     assert path == [node1, node2, node3]
-
 
 def test_dijkstra_algorithm_simple_graph():
     # Create a graph with three nodes that are indirectly connected
@@ -65,5 +63,17 @@ def test_dijkstra_algorithm_disconnected_nodes():
     # when given a start node and a stop node that are not connected
     with pytest.raises(GraphException):
         path = graph.dijkstra_algorithm(node1, node2)
-    
 
+
+def test_get_node_in_graph():
+    # Create a graph with two nodes
+    graph = Graph()
+    node1 = Node(1, "Node 1", ["Line 1", "Line 2"], (0, 0))
+    node2 = Node(2, "Node 2", ["Line 2", "Line 3"], (0, 1))
+    graph.add_node(node1)
+    graph.add_node(node2)
+
+    # Test that the get_node_in_graph() method returns the correct node
+    assert graph.get_node_in_graph("Node 1") == node1
+    with pytest.raises(GraphException):
+        graph.get_node_in_graph("Node 3")
