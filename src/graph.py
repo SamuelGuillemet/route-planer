@@ -23,7 +23,13 @@ class Graph:
 
     def get_weight(self, node1: Node, node2: Node) -> float:
         if node2 in self.get_neighbors(node1):
-            return node1.get_distance(node2)
+            #Time in minute, distance in kilometer
+            distance_km = node1.get_distance(node2)/1000
+            average_speed = 40 #km/h
+            default_time_stop = 0.5 #minute
+            default_time_change = 4 #minute
+            time = round(distance_km/average_speed*60 + default_time_stop, 2)
+            return time
         return float('inf')
 
     def dijkstra_algorithm_distance(self, start_node: Node):
