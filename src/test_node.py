@@ -1,23 +1,6 @@
 import pytest
 from node import Node, NeighborError
 
-
-
-@pytest.fixture
-def node_samples():
-    id_node = 1
-    name = "station01"
-    id_lines = [1, 2]
-    lat, lon = [48.861675, 2.346786]
-    node_1 = Node(id_node, name, id_lines, [lon, lat])
-    id_node = 2
-    name = "station02"
-    id_lines = [1]
-    lat, lon = [48.854921, 2.347367]
-    node_2 = Node(id_node, name, id_lines, [lon, lat])
-    return (node_1, node_2)
-
-
 def test_nodes(node_samples):
     node_1: Node = node_samples[0]
     assert node_1.id == 1

@@ -16,7 +16,7 @@ class Node:
     def get_neighbors_list(self):
         return self.neighbors
 
-    def add_neighbor(self, node):
+    def add_neighbor(self, node: "Node"):
         if node == self:
             raise NeighborError("Node is itself")
         if node in self.get_neighbors_list():
@@ -34,4 +34,3 @@ class Node:
         res = math.acos(math.sin(lat_self) * math.sin(lat_node)
         + math.cos(lat_self) * math.cos(lat_node) * math.cos(lon_self - lon_node)) * 6378137
         return round(res, 2)
-
