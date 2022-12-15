@@ -62,7 +62,7 @@ def test_dijkstra_algorithm_disconnected_nodes():
     # Test that the dijkstra_algorithm() method returns None
     # when given a start node and a stop node that are not connected
     with pytest.raises(GraphException):
-        path = graph.dijkstra_algorithm(node1, node2)
+        graph.dijkstra_algorithm(node1, node2)
 
 
 def test_get_node_in_graph():

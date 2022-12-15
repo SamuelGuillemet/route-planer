@@ -15,7 +15,7 @@ def test_stops_loading(sample_network_parser) -> bool:
 
 def test_stop_node_initializing(sample_network_parser) -> bool:
     for stop in sample_network_parser.get_stops():
-        if not (isinstance(stop, Node)):
+        if not isinstance(stop, Node):
             assert False
     assert True
 
