@@ -1,18 +1,17 @@
 import sys
 from graph import Graph
-from node import Node
 from network_parser import NetworkParser
 
 
-def path_to_string(res):
-    path = res[0].name + " \n-> "
-    for i in range(1, len(res)):
-        path += res[i].name + " (via "
-        for line in res[i].id_lines:
-            if i == len(res) - 1:
+def path_to_string(_res):
+    path = _res[0].name + " \n-> "
+    for i in range(1, len(_res)):
+        path += _res[i].name + " (via "
+        for line in _res[i].id_lines:
+            if i == len(_res) - 1:
                 path += line + ")"
                 break
-            if line in res[i - 1].id_lines:
+            if line in _res[i - 1].id_lines:
                 path += line + ") \n-> "
                 break
         else:
